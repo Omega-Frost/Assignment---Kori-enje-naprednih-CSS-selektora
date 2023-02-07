@@ -1,0 +1,35 @@
+a[href*="https://www.google.com/"] {
+    color: green;
+}
+
+a[target*="_blank"] {
+    color:red;
+}
+
+div[id*="second-div"]
+p:nth-child(odd){
+    color:blue
+}
+
+div[id*="second-div"]
+p:nth-child(even){
+    color:red
+}
+
+
+a[Paragraph*="Paragraph 2"]::after {
+    content: " - NEW ";
+    color: yellow;
+}
+
+
+a[Paragraph*="Paragraph 3"]::after {
+    content: " - NEW ";
+    color: yellow;
+}
+    
+
+a[Paragraph*="Paragraph 10"]:hover{
+     font-style: italic;
+}
+
