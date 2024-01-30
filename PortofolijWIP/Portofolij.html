@@ -3,59 +3,122 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Moj Portofolij/My CV</title>
+    <title>My CV</title>
     <style>
+
+div {background-color: white;}
+body a {
+  text-decoration: none;
+  color: gold;
+  font-size: 20px;
+  padding: 15px;
+  display:inline-block;
+}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}/* delete top div if needed */
+
+    a:hover {
+  background-color: black;      
+  color: white;
+  text-decoration: underline;
+}
+    
+* {
+  box-sizing: border-box;
+}
+        
         body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
         background-image: url('Backgroundimg.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100% 100%;
         }
 
+        body:hove {   
+           -ms-flex: 70%; /* IE10 */
+           flex: 70%;
+           background-color: white;
+           padding: 20px;
+        }  
+
+        .footer {
+           padding: 5px;
+           text-align: center;
+           background: lightblue;
+        }
+
     </style>
 </head>
 
 <body>
-    <h1>Portofolij/CV</h1>
+    <h1>CV</h1>
     
-    <p>Place picture below here</p>
+    <img src="Screenshot_1.png"
+    width="300" 
+     height="300">
     
     <p>Links & Contact details:</p>
 
     <a href="https://github.com/Omega-Frost">My Github page</a>
 
-    <a href="https://www.google.com/doodles">Place facebook link here</a>
-    
-    <a href="https://www.link-group.eu/" target="_blank">Goto Link Group</a>
-    
-    <p>Phone number:387-000-000-0000 </p>
+    <a href="https://bs-ba.facebook.com/suad.suljic.96"> My Facebook page</a>
+        
+    <p>Phone number:387-603394004 </p>
 
     <p>Email address: suadsuljic1@gmail.com </p>
 
+    <p>Address:Mehmed-bega Alajbegovića1,
+        Bihać,77000,
+        Bosnia and Herzegovina
+        </p>
+
+        <h2>Education</h2>
+
+        <p>ITACADEMY,Sarajevo,2020</p>
+            <p>•	Higher National Certificate</p>
+            <p>•	Studied 2 Years at ITACADEMY</p>
+            <p>•	Acquired professional knowledge as an electronics technician</p>
+            <p>•	Graduated from JU Mixed Electrotechnical and Woodworking Secondary School</p>
+            </p>
     
+            <h2>Work Experience</h2>
+                <p>Only practiced for six months at IDK studio as of time of writing this.</p>
+                
+
+
     <div id="first-div">
-        <h2>O meni/About me</h2>
+        <h2>About me </h2>
 
-        <p>Name/Ime:Suad Suljić</p>
+        <p>Name:Suad Suljić</p>
 
-        <p>Date of birth/Datum rođenja: 9.December.2000. </p>
+        <p>Date of birth: 9.December.2000. </p>
 
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-            Aut quaerat et natus debitis quasi alias optio facilis sunt soluta libero cumque voluptatibus dolore possimus eligendi eos vitae, ex laborum porro.</p>
+        <p>Beginner Web designer that is somewhat well versed with several programming languages, these include: HTLM5 ,CSS,Vue and JavaScript.
+             Proficient in speaking English and knows how to use Adobe Photoshop,Adobe XD and Illustrator. Has a car driving license .Doesn’t smoke or drink.</p>
         
         <div id="second-div">
-            <h3>Moje vještine/My skills</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                 Dolor perferendis aliquam, culpa id molestiae tenetur autem incidunt asperiores error voluptates placeat a necessitatibus praesentium totam quia exercitationem,
-                  ipsum esse vitae.</p>
+            <h3>My skills</h3>
+            <p>Web Designer – Beginner</p>
+                <p> coding and development - Beginner</p>
+                <p>Frontend JavaScript Development – Beginner</p>
+                <p>Electrical Engineering - Beginner</p>
             
         </div>
     </div>
-    <h3>Jezik/Language</h2>
+    <h3>Language</h2>
         
     <p>-Bosnian </p>
     <p>-English </p>
     <p>-German (Basic) </p>
+
+    <div class="footer">
+        <h2>Sample text</h2>
+      </div>
 
 </body>
 
